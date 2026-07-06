@@ -38,5 +38,6 @@ def numberToWords(num: int) -> str:
 #Examlpes:
 if __name__ == "__main__":
     print(numberToWords(123))
+    print(numberToWords(12345))
     print(numberToWords(-45))
     print(numberToWords(0))
