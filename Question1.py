@@ -35,7 +35,7 @@ def numberToWords(num: int) -> str:
 
     return result
 
-#Examlpes:
+# Examlpes:
 if __name__ == "__main__":
     print(numberToWords(123))
     print(numberToWords(12345))

@@ -18,8 +18,8 @@ def lengthOfLIS(nums: List[int]) -> int:
     return len(tails)
 
 
-# ---- Test ----
+# Examples:
 if __name__ == "__main__":
-    print(lengthOfLIS([0, 1, 0, 3, 2, 3]))  # 4
-    print(lengthOfLIS([7, 7, 7, 7, 7]))      # 1
-    print(lengthOfLIS([]))                    # 0
+    print(lengthOfLIS([0, 1, 0, 3, 2, 3]))
+    print(lengthOfLIS([7, 7, 7, 7, 7]))  
+    print(lengthOfLIS([]))
