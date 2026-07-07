@@ -4,16 +4,15 @@ from typing import List
 def lengthOfLIS(nums: List[int]) -> int:
     if not nums:
         return 0
-
-    # tails[i] = smallest possible tail value of an increasing subsequence of length i+1
+        
     tails = []
 
     for num in nums:
-        pos = bisect_left(tails, num)  # find first index >= num
+        pos = bisect_left(tails, num)
         if pos == len(tails):
-            tails.append(num)          # num extends the largest subsequence so far
+            tails.append(num)
         else:
-            tails[pos] = num           # num replaces an existing tail, keeping it minimal
+            tails[pos] = num
 
     return len(tails)
 
