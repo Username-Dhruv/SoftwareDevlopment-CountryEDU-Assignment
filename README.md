@@ -5,6 +5,8 @@ Convert an integer `num` to its English words representation.
 
 - Example: `123` → `"One Hundred Twenty Three"`
 - Example: `12345` → `"Twelve Thousand Three Hundred Forty Five"`
+- Example: `-45` → `"Negative Forty Five"`
+- Example: `0` → `"Zero"`
 - Handles negative numbers, no extra spaces.
 
 📄 Solution: [`Question1.py`](./Question1.py)
